@@ -110,7 +110,7 @@ namespace Microsoft.OpenApi.CSharpAnnotations.DocumentGeneration
             "The correct way to document a generic type is as follows: " +
             "<see cref=\"Response{T}\"/> where T is <see cref=\"GenericType\"/>";
 
-        public const string UndocumentedPathParameter = "Path paramater: {0} is undocumented in {1}";
+        public const string UndocumentedPathParameter = "Path parameter: {0} is undocumented in {1}";
 
         public const string UnableToGenerateAllOperations = "Generated {0}/{1} documented operations successfully.";
 
